@@ -1,3 +1,5 @@
+[<img src="https://avatars0.githubusercontent.com/u/1412239?s=200&v=4" align="right">](http://nginx.org//)
+
 First pull the nginx image from Docker hub
 ```
 docker pull nginx
