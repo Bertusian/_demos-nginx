@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en"> <!-- dit is de html 'start' tag -->
+
+<head> <!-- The <head> element 'start' is a container for metadata (not displayed) -->	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Bootstrap 3 is designed to be responsive to mobile devices. To ensure proper rendering add the following <meta> tag-->
+	<title>Test</title>   <!-- dit is de titel van je webpagina -->	
+	<link rel="stylesheet"; href="./_styles/test.css">	<!-- dit is relatieve link naar de eigen .css -->	
+	<script src="./_js/switchFoto.js"></script> <!-- dit is relatieve link naar de eigen .js -->
+	
+	<!-- de volgende 4 lijnen om te werken met Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Latest compiled and minified CSS -->	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> <!-- Optional theme -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery library -->
+
+</head> <!-- The <head> element 'end' is a container for metadata (not displayed) -->
+
+<!-- JavaScript can access elements with a specified class name by using the getElementsByClassName() method:-->
+<!-- JavaScript can access an element with a specified id by using the getElementById() method:-->
+
+
+<body> <!-- The <body> element defines the document body 'start' -->
+	<header>
+		<h1 id="myHeader">Lorem Ipsum - 6/11/2020</h1> <!-- dit is een html HEADING1 'start' en 'end' -->		
+		<hr> <!-- dit is een horizontale lijn om inhoud van elkaar te scheiden -->
+	</header>
+
+	<section>
+	  <nav>
+		<p align="middle">
+		<img id="myImage" src="./_img/Trouw2.jpg" style="width:500px" align="middle">
+		<button type="button" onclick="light(1)" >Voor</button>
+		<button type="button" onclick="light(0)" >Na</button>
+		</p>
+	  </nav>	  
+	  
+	  <article>
+		<h2 style="color:orange">Speech</h2> <!-- dit is een html HEADING2 'start' en 'end' -->
+		<p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten..
+		<br> <br>
+		Lorem Ipsum is slechts een proeftekst uit het <strong>drukkerij- en zetterijwezen</strong>. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+		<br> <br>
+		Lorem Ipsum is slechts een proeftekst .
+		<br> <br>
+		<strong>Tekst</strong>: test.<br>		
+		<br> <br>
+		</p>
+	  </article>
+	</section>	
+
+
+</body> <!-- The <body> element defines the document body 'end' -->
+
+</html> <!-- dit is de html 'end' tag -->
