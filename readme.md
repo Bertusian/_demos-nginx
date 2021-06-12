@@ -14,9 +14,14 @@ nano HelloWorld.html
 ```
 
 
-Run the container on port 8080
+Test nginx and run the container on port 8080
 ```bash
-docker run -p 8080:8080 -v /home/hans/_demos/nginx/Example1:/usr/share/nginx/html -d nginx
+docker run -it --rm -d -p 8080:80 --name web nginx
+```
+
+Run the container on port 8080 with a mounted volume
+```bash
+docker run -p 8080:80 -v /home/hans/_demos/nginx/Example1:/usr/share/nginx/html -d nginx
 ```
 
 Finally, go the the following URL: 
